@@ -1,3 +1,6 @@
+body{
+    background-color: #DCDADA;
+}
 .bg-light {
     background-color: #403F39!important;
 }
@@ -11,14 +14,28 @@
     color: white;
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: rgb(235, 232, 232);
+    color: #636262;
 }
-
+.navbar-light .navbar-brand:hover {
+    color: #636262;;
+}
+.carousel-inner{
+    height: 450px;
+}
 .fa-shopping-cart{
     color: white;
 
 }
+.card-body{
+    background-color: #DCDADA;
+}
 .card-header:first-child {
     background-color: #403F39;
     color: white;
+}
+.fa-times{
+    color: red;
+}
+.fa-plus-circle,.fa-minus-circle{
+    color: green;
 }
