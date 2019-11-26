@@ -39,3 +39,9 @@ body{
 .fa-plus-circle,.fa-minus-circle{
     color: green;
 }
+.align-self-center{
+display: flex;
+justify-content: space-around;
+align-items: baseline;
+
+}
